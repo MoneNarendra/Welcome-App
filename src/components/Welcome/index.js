@@ -19,7 +19,7 @@ class Welcome extends Component {
           <h1 className="main-heading">Welcome</h1>
           <p className="discription">Thanks you!Happy Learning</p>
           <button type="button" className="btn" onClick={this.onSub}>
-            {isSubscribed ? 'Subscribed' : 'Subscrib'}
+            {isSubscribed ? 'Subscribed' : 'Subscribe'}
           </button>
         </div>
       </div>
